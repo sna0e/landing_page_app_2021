@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+
+
+.line {
+    margin-top : 40px;
+    border-bottom: 1px solid #e0e0e0;
+}

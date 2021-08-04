@@ -1,0 +1,104 @@
+h2 {
+    color : #394883;
+    display: inline-block;
+    width: 600px;
+    height: 20px;
+    text-align : center;
+    font-size : 30px;
+}
+
+p {
+    font-size: 20px;
+    color: #373944;
+}
+
+.def{
+    margin-top: 40px;
+    padding : 10px;
+    text-align : center;
+}
+
+.history {
+    margin-top: 80px;
+    padding : 10px;
+    text-align: center;
+}
+
+.doing {
+    margin-top: 80px;
+    padding : 10px;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 80px;
+    padding : 10px;
+    text-align: center;
+}
+
+.countButton {
+    margin-top: 80px;
+    padding : 10px;
+    text-align: center;
+}
+
+
+.bulletLine {
+    margin-top: 40px;
+    height: 1px;
+    background-color: #373944;
+    text-align: right;
+    
+}
+
+.bullet {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #394883;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.history{
+    padding: 0 100px;
+}
+
+.history ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.history li {
+    margin-top: -22px;
+    flex: 1 1 30%;
+    font-size: 20px;
+    color: #373944;
+    justify-content: center;
+    list-style: none;
+}
+
+.logo ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo li {
+    margin-top: 20px;
+    justify-content: left;
+    flex: 1 1 20%;
+    list-style: none;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.countButton button{
+    padding : 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-color: rgb(36, 144, 211);
+
+}
